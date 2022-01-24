@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body{
+    height: 100%;
+    background: rgb(190, 190, 190);
+}
+
+/*Pagina de login*/
+.box-login{
+    box-shadow: 10px 10px 5px #888888;
+    max-width: 600px;
+    width: 95%;
+    padding: 60px 2%;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.box-login h2{
+    text-align: center;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 10px 0;
+    color: black;
+}
+
+.box-login input[type=text],
+.box-login input[type=password]
+{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    margin-top: 8px;
+}
+
+.box-login input[type=submit]{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    background: #1de9b6;
+    color: white;
+    border: 0%;
+}
+
+/*Box erro do painel*/
+
+.erro-box{
+    width:100%;
+    padding: 6px 2%;
+    text-align: center;
+    background: #f75353;
+    color:white;
+    font-size: 15px;
+}
+
+/*Fim da pagina de login*/
+
+/*Painel de controle*/
+.clear{clear:both;}
+
+.center{padding:0 2%; margin:0 auto;}
+
+header{
+    float: left;
+    padding: 10px 0;
+    background: #78909c;
+    width: 80%;
+}
+
+.loggout{
+    float: right;
+}
+
+.loggout a{
+    color: white;
+    font-size: 20px;
+}
+.loggout a > span{
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu-btn{
+    float: left;
+    cursor: pointer;
+    font-size: 23px;
+    color: white;
+}
+
+div.menu{
+    overflow-y: auto;
+    height: 100%;
+    padding: 10px;
+    background: #455a64;
+    float: left;
+    width: 300px;
+}
+
+div.box-usuario{
+    text-align: center;
+}
+
+.avatar-usuario{
+    text-align: left;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #2F3D42;
+}
+
+.avatar-usuario i{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+
+}
+.nome-usuario{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nome-usuario p{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Conteudo principal do painel*/
+
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 48%;
+    background: blue !important;
+    margin-right: 2%;
+}
+
+.left{
+    float: left;
+}
+
+.content{
+    width: calc(100% - 300px);
+    position: relative;
+    left: 300px;
+    padding: 10px;
+}
+
+.box-content{
+    background: red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
